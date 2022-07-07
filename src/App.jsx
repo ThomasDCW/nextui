@@ -1,6 +1,7 @@
 import './App.css';
 import NextUIButton from './components/button';
 import NextUICard from './components/card';
+import NextUITrigger from './components/trigger';
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       </article>
       <article>
         <NextUICard />
+      </article>
+      <article>
+        <NextUITrigger />
       </article>
     </div>
   );
