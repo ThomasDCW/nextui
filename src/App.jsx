@@ -1,5 +1,6 @@
 import './App.css';
 import NextUIButton from './components/button';
+import NextUICard from './components/card';
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
       <header className='App-header'>Next UI</header>
       <article>
         <NextUIButton />
+      </article>
+      <article>
+        <NextUICard />
       </article>
     </div>
   );
