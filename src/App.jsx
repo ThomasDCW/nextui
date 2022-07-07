@@ -1,13 +1,21 @@
-import { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NextUIButton from './components/button';
+import NextUICard from './components/card';
+import NextUITrigger from './components/trigger';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className='App'>
-      <header className='App-header'>Template React Vite</header>
+      <header className='App-header'>Next UI</header>
+      <article>
+        <NextUIButton />
+      </article>
+      <article>
+        <NextUICard />
+      </article>
+      <article>
+        <NextUITrigger />
+      </article>
     </div>
   );
 }
